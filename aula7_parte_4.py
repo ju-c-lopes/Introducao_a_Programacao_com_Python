@@ -1,3 +1,4 @@
+
 class Televisao:
 
     def __init__(self):
@@ -18,19 +19,21 @@ class Televisao:
         if televisao.ligada:
             self.canal -= 1
 
-televisao = Televisao()
-print('Televisão ligada? {}\n Apertando power'.format(televisao.ligada))
-televisao.power()
-print('Televisão ligada? {}\n Apertando power'.format(televisao.ligada))
-televisao.power()
-print('Televisão ligada? {}'.format(televisao.ligada))
-televisao.power()
-print('\nTelevisão ligada? {}'.format(televisao.ligada))
-print('Canal: {}'.format(televisao.canal))
-print('televisao.aumenta_canal()\ntelevisao.aumenta_canal()')
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print('Canal: {}'.format(televisao.canal))
-print('televisao.diminui_canal()')
-televisao.diminui_canal()
-print('Canal: {}'.format(televisao.canal))
+
+if __name__ == '__main__':
+    televisao = Televisao()
+    print('Televisão ligada? {}\n Apertando power'.format(televisao.ligada))
+    televisao.power()
+    print('Televisão ligada? {}\n Apertando power'.format(televisao.ligada))
+    televisao.power()
+    print('Televisão ligada? {}'.format(televisao.ligada))
+    televisao.power()
+    print('\nTelevisão ligada? {}'.format(televisao.ligada))
+    print('Canal: {}'.format(televisao.canal))
+    print('televisao.aumenta_canal()\ntelevisao.aumenta_canal()')
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    print('Canal: {}'.format(televisao.canal))
+    print('televisao.diminui_canal()')
+    televisao.diminui_canal()
+    print('Canal: {}'.format(televisao.canal))
