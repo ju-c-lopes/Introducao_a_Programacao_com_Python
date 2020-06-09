@@ -1,0 +1,14 @@
+Notas e medias dos alunos: 
+
+Rafael : [' 10', ' 10', ' 5', ' 5']
+Media = 7.5
+
+Felipe : [' 7', ' 8', ' 5', ' 6']
+Media = 6.5
+
+Galleani : [' 7', ' 8', ' 5', ' 6']
+Media = 6.5
+
+Cesar : [' 7', ' 9', ' 3', ' 8']
+Media = 6.75
+
